@@ -22,4 +22,5 @@ while True:
         break
     else:
         print("You got it wrong !")
+print("You got it in",user_ges,"gesses")
     
