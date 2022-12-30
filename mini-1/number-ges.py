@@ -19,6 +19,7 @@ while True:
         continue
     if user_ges==random_number:
         print("You got it!")
+        break
     else:
         print("You got it wrong !")
-    break
+    
