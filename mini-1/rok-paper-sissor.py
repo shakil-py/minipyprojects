@@ -2,8 +2,8 @@ import random
 user_wins = 0
 computer_wins = 0
 options = ["rock", "paper", "scissors"]
-options[0] =
-while true:
+options[0] 
+while True:
     user_input = input("Type rock/paper/sessior o Q to quit").lower()
     if user_input == "q":
         break
@@ -23,7 +23,7 @@ while true:
         user_wins += 1
     elif user_input=="scissors"and computer_pick=="paper":
         print("you won!")
-        user_winss+=1
+        user_wins+=1
     else:
         print("you lost !")
         computer_wins+=1
