@@ -7,13 +7,18 @@ if answer=="left":
     answer=input("You come to a river ,you can walk around it or swim accrose the river: ").lower()
 
     if answer=="swim":
-        print()
+        answer=input("font of your have a Bear,What do you want?(Run or acct like death): ").lower()
+
+        if answer=="death":
+            print("you do wright thing you are alive")
+        if answer=="run":
+            print("Sorry the Bear grab you !")
     if answer=="walk":
-        print()
+        print("Owao you reach tha gold hill")
     else:
         print("Not a valid option. you lose.")
 
 elif answer == "right":
     print()
 else:
-    print("Mot a valid option. You lose!")
+    print("Not a valid option. You lose!")
